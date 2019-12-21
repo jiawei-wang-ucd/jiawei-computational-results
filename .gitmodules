@@ -1,0 +1,3 @@
+[submodule "cutgeneratingfunctionology"]
+	path = cutgeneratingfunctionology
+	url = https://github.com/mkoeppe/cutgeneratingfunctionology.git
