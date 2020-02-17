@@ -1,3 +1,3 @@
-branch_parameters = {'method' : 'branch_bound', 'search_method' : 'DFS', 'lp_size' : 0, 'solver' : 'cplex'}
+branch_parameters = {'method' : 'naive', 'search_method' : '', 'lp_size' : None, 'solver' : ''}
 
 
