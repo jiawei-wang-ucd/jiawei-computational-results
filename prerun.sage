@@ -1,5 +1,13 @@
 import os, sys, glob
+import cpuinfo
+import pandas as pd
 
+# store cpuinfo
+data = pd.DataFrame.from_dict({ key: str(value) for key, value in
+cpuinfo.get_cpu_info().iteritems()}, orient='index')
+data.to_csv("./system_info/cpuinfo.csv", index=True, header=False)
+
+# print experiment info
 result_path = os.getcwd() + '/jiawei-computational-results/results_datatable/'
 extreme_instances_path = os.getcwd() + '/test_instances/extreme_functions/'
 minimal_instances_path = os.getcwd() + '/test_instances/minimal_functions/'
