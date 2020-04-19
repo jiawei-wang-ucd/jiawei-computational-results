@@ -27,4 +27,4 @@ def from_taskid_to_instance_and_algorithm(taskid, total_algorithms, total_instan
     output_file_path = all_algorithms_path[algorithm_index]
     return input_file_name, output_file_path
 
-function = minimum_of_delta_pi
+function = is_objective_goal_reached_one_percent
