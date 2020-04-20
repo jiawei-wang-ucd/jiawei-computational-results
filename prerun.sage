@@ -12,7 +12,7 @@ result_path = os.getcwd() + '/jiawei-computational-results/results_datatable/'
 extreme_instances_path = os.getcwd() + '/test_instances/extreme_functions/'
 minimal_instances_path = os.getcwd() + '/test_instances/minimal_functions/'
 
-print('This expriment is about verifying that the minimum of the subadditivity slack of a cut generating function is no smaller than 0.')
+print('This experiment is about computation of maximal additive faces of cut generating functions.')
 
 # determine the number of algorithms.
 all_algorithms_path = [result_path+i for i in os.listdir(result_path) if os.path.isdir(result_path+i)]

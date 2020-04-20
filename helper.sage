@@ -26,4 +26,4 @@ def from_taskid_to_instance_and_algorithm(taskid, total_algorithms, total_instan
     output_file_path = all_algorithms_path[algorithm_index]
     return input_file_name, output_file_path
 
-function = is_objective_goal_reached_zero
+function = maximal_additive_faces_generation
