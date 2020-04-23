@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 1955333
+SLURM_NODELIST = c5-68
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 232
+Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_39_2s.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/naive_computation/extreme_39_2s.csv
+slurmstepd: error: *** JOB 1955333 ON c5-68 CANCELLED AT 2020-04-21T11:12:19 DUE TO TIME LIMIT ***

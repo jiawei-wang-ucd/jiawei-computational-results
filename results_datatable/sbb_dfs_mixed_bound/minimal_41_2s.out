@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 1956347
+SLURM_NODELIST = c5-68
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 585
+Input file:/home/wangjw/jiawei-computations/test_instances/minimal_functions/minimal_41_2s.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_dfs_mixed_bound/minimal_41_2s.csv
+slurmstepd: error: *** JOB 1956347 ON c5-68 CANCELLED AT 2020-04-22T05:27:26 DUE TO TIME LIMIT ***
