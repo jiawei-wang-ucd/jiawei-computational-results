@@ -1,9 +1,4 @@
 [submodule "cutgeneratingfunctionology"]
 	path = cutgeneratingfunctionology
 	url = https://github.com/mkoeppe/cutgeneratingfunctionology.git
-[submodule "delta_pi_minimum"]
-	path = delta_pi_minimum
-	url = https://github.com/jiawei-wang-ucd/delta_pi_minimum.git
-[submodule "additive_faces_generation"]
-	path = additive_faces_generation
-	url = https://github.com/jiawei-wang-ucd/additive_faces_generation.git
+
