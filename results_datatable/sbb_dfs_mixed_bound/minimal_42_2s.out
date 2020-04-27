@@ -1,0 +1,31 @@
+==========================================
+SLURM_JOB_ID = 1965688
+SLURM_NODELIST = c5-64
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 586
+Input file:/home/wangjw/jiawei-computations/test_instances/minimal_functions/minimal_42_2s.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_dfs_mixed_bound/minimal_42_2s.csv
+Traceback (most recent call last):
+  File "/var/spool/slurmd/job1965688/slurm_script", line 30, in <module>
+    report_performance(function, output_file_name, iterations=30, args=[fn], kwargs = branch_parameters)
+  File "<string>", line 38, in report_performance
+  File "<string>", line 23, in measure_time_resource
+  File "<string>", line 68, in is_objective_goal_reached_zero
+  File "<string>", line 84, in is_objective_goal_reached
+  File "/home/wangjw/.sage/temp/c5-64/29021/faster_subadditivity_test.sagencayxknm.py", line 587, in is_subadditive
+    self.node_branching(current_node,search_method=search_method,find_min=False,stop_only_if_strict=cache_additive_vertices,**kwds)
+  File "/home/wangjw/.sage/temp/c5-64/29021/faster_subadditivity_test.sagencayxknm.py", line 504, in node_branching
+    node.generate_children(self.objective_limit,stop_only_if_strict,**kwds)
+  File "/home/wangjw/.sage/temp/c5-64/29021/faster_subadditivity_test.sagencayxknm.py", line 347, in generate_children
+    if not self.is_fathomed(upper_bound,stop_only_if_strict,**kwds):
+  File "/home/wangjw/.sage/temp/c5-64/29021/faster_subadditivity_test.sagencayxknm.py", line 363, in is_fathomed
+    if self.delta_pi_lower_bound(**kwds)>=value:
+  File "/home/wangjw/.sage/temp/c5-64/29021/faster_subadditivity_test.sagencayxknm.py", line 279, in delta_pi_lower_bound
+    lower_bound, estimators=self.delta_pi_affine_lower_bound(solver=solver)
+  File "/home/wangjw/.sage/temp/c5-64/29021/faster_subadditivity_test.sagencayxknm.py", line 234, in delta_pi_affine_lower_bound
+    p.solve()
+  File "sage/numerical/mip.pyx", line 2260, in sage.numerical.mip.MixedIntegerLinearProgram.solve (build/cythonized/sage/numerical/mip.c:15418)
+  File "sage/numerical/backends/cplex_backend.pyx", line 931, in sage.numerical.backends.cplex_backend.CPLEXBackend.solve (build/cythonized/sage/numerical/backends/cplex_backend.c:10138)
+  File "sage/numerical/backends/cplex_backend.pyx", line 1687, in sage.numerical.backends.cplex_backend.check (build/cythonized/sage/numerical/backends/cplex_backend.c:15142)
+sage.numerical.mip.MIPSolverException: CPLEX: CPXERR_THREAD_FAILED
