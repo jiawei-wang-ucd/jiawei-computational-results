@@ -1,9 +1,9 @@
 ==========================================
-SLURM_JOB_ID = 1954829
-SLURM_NODELIST = c5-68
+SLURM_JOB_ID = 1997586
+SLURM_NODELIST = c4-80
 CUDA_VISIBLE_DEVICES = 
 ==========================================
 Sage hello from task 91
 Input file:/home/wangjw/jiawei-computations/test_instances/minimal_functions/minimal_47_2s.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_bfs_mixed_bound/minimal_47_2s.csv
-slurmstepd: error: *** JOB 1954829 ON c5-68 CANCELLED AT 2020-04-21T02:13:18 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 1997586 ON c4-80 CANCELLED AT 2020-05-24T19:55:41 DUE TO TIME LIMIT ***

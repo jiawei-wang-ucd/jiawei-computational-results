@@ -1,9 +1,10 @@
 ==========================================
-SLURM_JOB_ID = 1956257
-SLURM_NODELIST = c5-65
+SLURM_JOB_ID = 1998124
+SLURM_NODELIST = c4-69
 CUDA_VISIBLE_DEVICES = 
 ==========================================
-Sage hello from task 526
+Sage hello from task 626
 Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_33_2s.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_dfs_mixed_bound/extreme_33_2s.csv
-slurmstepd: error: *** JOB 1956257 ON c5-65 CANCELLED AT 2020-04-22T01:14:26 DUE TO TIME LIMIT ***
+/home/wangjw/sage/sage-9.0/src/bin/sage-python: line 2:  8700 Killed                  sage -python "$@"
+slurmstepd: error: Detected 1 oom-kill event(s) in step 1998124.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

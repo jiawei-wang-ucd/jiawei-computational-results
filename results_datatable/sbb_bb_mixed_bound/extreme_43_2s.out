@@ -1,9 +1,26 @@
 ==========================================
-SLURM_JOB_ID = 1956804
-SLURM_NODELIST = c5-68
+SLURM_JOB_ID = 1998535
+SLURM_NODELIST = c4-78
 CUDA_VISIBLE_DEVICES = 
 ==========================================
-Sage hello from task 937
+Sage hello from task 1037
 Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_43_2s.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_bb_mixed_bound/extreme_43_2s.csv
-slurmstepd: error: *** JOB 1956804 ON c5-68 CANCELLED AT 2020-04-22T22:33:02 DUE TO TIME LIMIT ***
+Traceback (most recent call last):
+  File "/var/spool/slurmd/job1998535/slurm_script", line 30, in <module>
+    report_performance(function, output_file_name, iterations=30, args=[fn], kwargs = branch_parameters)
+  File "<string>", line 38, in report_performance
+  File "<string>", line 23, in measure_time_resource
+  File "<string>", line 57, in maximal_additive_faces_generation
+  File "/home/wangjw/.sage/temp/c4-78/5415/faster_subadditivity_test.sagefljjnufd.py", line 671, in generate_maximal_additive_faces
+    self.node_branching(current_node,search_method=search_method,find_min=False,stop_only_if_strict=True,**kwds)
+  File "/home/wangjw/.sage/temp/c4-78/5415/faster_subadditivity_test.sagefljjnufd.py", line 559, in node_branching
+    self.unfathomed_node_list.put((node.left_child.delta_pi_lower_bound(**kwds),node.left_child))
+  File "/home/wangjw/.sage/temp/c4-78/5415/faster_subadditivity_test.sagefljjnufd.py", line 320, in delta_pi_lower_bound
+    lower_bound, estimators=self.delta_pi_affine_lower_bound(solver=solver)
+  File "/home/wangjw/.sage/temp/c4-78/5415/faster_subadditivity_test.sagefljjnufd.py", line 274, in delta_pi_affine_lower_bound
+    p.solve()
+  File "sage/numerical/mip.pyx", line 2260, in sage.numerical.mip.MixedIntegerLinearProgram.solve (build/cythonized/sage/numerical/mip.c:15418)
+  File "sage/numerical/backends/cplex_backend.pyx", line 931, in sage.numerical.backends.cplex_backend.CPLEXBackend.solve (build/cythonized/sage/numerical/backends/cplex_backend.c:10138)
+  File "sage/numerical/backends/cplex_backend.pyx", line 1687, in sage.numerical.backends.cplex_backend.check (build/cythonized/sage/numerical/backends/cplex_backend.c:15142)
+sage.numerical.mip.MIPSolverException: CPLEX: CPXERR_THREAD_FAILED
