@@ -1,6 +1,6 @@
 ==========================================
-SLURM_JOB_ID = 1952257
-SLURM_NODELIST = c5-80
+SLURM_JOB_ID = 2000802
+SLURM_NODELIST = c6-85
 CUDA_VISIBLE_DEVICES = 
 ==========================================
 Sage hello from task 446

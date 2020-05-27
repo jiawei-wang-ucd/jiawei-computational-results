@@ -1,9 +1,9 @@
 ==========================================
-SLURM_JOB_ID = 1954186
-SLURM_NODELIST = c4-61
+SLURM_JOB_ID = 2002373
+SLURM_NODELIST = c5-81
 CUDA_VISIBLE_DEVICES = 
 ==========================================
-Sage hello from task 1551
+Sage hello from task 2001
 Input file:/home/wangjw/jiawei-computations/test_instances/minimal_functions/minimal_10.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/mip_solver/minimal_10.csv
-slurmstepd: error: *** JOB 1954186 ON c4-61 CANCELLED AT 2020-04-18T16:42:06 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 2002373 ON c5-81 CANCELLED AT 2020-05-25T15:15:13 DUE TO TIME LIMIT ***

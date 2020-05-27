@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 2002093
+SLURM_NODELIST = c4-70
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 1725
+Input file:/home/wangjw/jiawei-computations/test_instances/minimal_functions/minimal_32_2s.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_bb_fast_bound/minimal_32_2s.csv
+slurmstepd: error: *** JOB 2002093 ON c4-70 CANCELLED AT 2020-05-25T14:48:43 DUE TO TIME LIMIT ***
