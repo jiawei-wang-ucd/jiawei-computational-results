@@ -1,9 +1,8 @@
 ==========================================
-SLURM_JOB_ID = 1963373
-SLURM_NODELIST = c5-88
+SLURM_JOB_ID = 2003375
+SLURM_NODELIST = c5-66
 CUDA_VISIBLE_DEVICES = 
 ==========================================
 Sage hello from task 289
 Input file:/home/wangjw/jiawei-computations/test_instances/non_subadditive_functions/nonsub_45_2s.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_dfs_lp_bound/nonsub_45_2s.csv
-slurmstepd: error: *** JOB 1963373 ON c5-88 CANCELLED AT 2020-04-26T20:28:20 DUE TO TIME LIMIT ***

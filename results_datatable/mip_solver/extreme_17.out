@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 2005049
+SLURM_NODELIST = c5-84
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 1958
+Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_17.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/mip_solver/extreme_17.csv
+slurmstepd: error: *** JOB 2005049 ON c5-84 CANCELLED AT 2020-05-27T15:22:08 DUE TO TIME LIMIT ***

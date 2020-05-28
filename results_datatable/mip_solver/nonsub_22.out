@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 2005211
+SLURM_NODELIST = c5-65
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 2064
+Input file:/home/wangjw/jiawei-computations/test_instances/non_subadditive_functions/nonsub_22.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/mip_solver/nonsub_22.csv
+slurmstepd: error: *** JOB 2005211 ON c5-65 CANCELLED AT 2020-05-27T16:34:08 DUE TO TIME LIMIT ***

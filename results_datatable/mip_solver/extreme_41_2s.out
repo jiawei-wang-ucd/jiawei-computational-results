@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 2005077
+SLURM_NODELIST = c5-71
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 1985
+Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_41_2s.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/mip_solver/extreme_41_2s.csv
+slurmstepd: error: *** JOB 2005077 ON c5-71 CANCELLED AT 2020-05-27T15:24:08 DUE TO TIME LIMIT ***
