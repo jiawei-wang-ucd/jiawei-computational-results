@@ -1,8 +1,8 @@
 ==========================================
-SLURM_JOB_ID = 1966096
-SLURM_NODELIST = c4-68
+SLURM_JOB_ID = 2006468
+SLURM_NODELIST = c5-78
 CUDA_VISIBLE_DEVICES = 
 ==========================================
-Sage hello from task 994
+Sage hello from task 1094
 Input file:/home/wangjw/jiawei-computations/test_instances/minimal_functions/minimal_5.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_bb_mixed_bound/minimal_5.csv

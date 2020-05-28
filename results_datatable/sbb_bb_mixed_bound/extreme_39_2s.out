@@ -1,9 +1,9 @@
 ==========================================
-SLURM_JOB_ID = 1966034
-SLURM_NODELIST = c6-91
+SLURM_JOB_ID = 2006406
+SLURM_NODELIST = c5-65
 CUDA_VISIBLE_DEVICES = 
 ==========================================
-Sage hello from task 932
+Sage hello from task 1032
 Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_39_2s.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_bb_mixed_bound/extreme_39_2s.csv
-slurmstepd: error: *** JOB 1966034 ON c6-91 CANCELLED AT 2020-04-27T04:58:13 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 2006406 ON c5-65 CANCELLED AT 2020-05-28T06:54:43 DUE TO TIME LIMIT ***

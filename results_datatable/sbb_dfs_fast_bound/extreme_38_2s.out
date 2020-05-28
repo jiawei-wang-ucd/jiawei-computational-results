@@ -1,0 +1,10 @@
+==========================================
+SLURM_JOB_ID = 2006605
+SLURM_NODELIST = c4-79
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 1231
+Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_38_2s.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_dfs_fast_bound/extreme_38_2s.csv
+/home/wangjw/sage/sage-9.0/src/bin/sage-python: line 2: 23265 Killed                  sage -python "$@"
+slurmstepd: error: Detected 1 oom-kill event(s) in step 2006605.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

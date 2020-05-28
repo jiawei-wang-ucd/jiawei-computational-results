@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 2006716
+SLURM_NODELIST = c6-87
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 1340
+Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_46_2s.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/mip_solver/extreme_46_2s.csv
+slurmstepd: error: *** JOB 2006716 ON c6-87 CANCELLED AT 2020-05-28T08:14:43 DUE TO TIME LIMIT ***

@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 2006747
+SLURM_NODELIST = c5-78
+CUDA_VISIBLE_DEVICES = 
+==========================================
+Sage hello from task 1371
+Input file:/home/wangjw/jiawei-computations/test_instances/minimal_functions/minimal_29.sobj
+Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/mip_solver/minimal_29.csv
+slurmstepd: error: *** JOB 2006747 ON c5-78 CANCELLED AT 2020-05-28T08:51:43 DUE TO TIME LIMIT ***

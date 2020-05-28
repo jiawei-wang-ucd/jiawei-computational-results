@@ -1,25 +1,25 @@
 ==========================================
-SLURM_JOB_ID = 1965938
-SLURM_NODELIST = c4-79
+SLURM_JOB_ID = 2006306
+SLURM_NODELIST = c5-87
 CUDA_VISIBLE_DEVICES = 
 ==========================================
-Sage hello from task 836
+Sage hello from task 936
 Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_42_2s.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_bb_lp_bound/extreme_42_2s.csv
 Traceback (most recent call last):
-  File "/var/spool/slurmd/job1965938/slurm_script", line 30, in <module>
+  File "/var/spool/slurmd/job2006306/slurm_script", line 30, in <module>
     report_performance(function, output_file_name, iterations=30, args=[fn], kwargs = branch_parameters)
   File "<string>", line 38, in report_performance
   File "<string>", line 23, in measure_time_resource
   File "<string>", line 68, in is_objective_goal_reached_zero
   File "<string>", line 84, in is_objective_goal_reached
-  File "/home/wangjw/.sage/temp/c4-79/21348/faster_subadditivity_test.sagezoqlgs3f.py", line 587, in is_subadditive
+  File "/home/wangjw/.sage/temp/c5-87/7572/faster_subadditivity_test.sageqlt07qvc.py", line 632, in is_subadditive
     self.node_branching(current_node,search_method=search_method,find_min=False,stop_only_if_strict=cache_additive_vertices,**kwds)
-  File "/home/wangjw/.sage/temp/c4-79/21348/faster_subadditivity_test.sagezoqlgs3f.py", line 518, in node_branching
-    self.unfathomed_node_list.put((node.right_child.delta_pi_lower_bound(**kwds),node.right_child))
-  File "/home/wangjw/.sage/temp/c4-79/21348/faster_subadditivity_test.sagezoqlgs3f.py", line 279, in delta_pi_lower_bound
+  File "/home/wangjw/.sage/temp/c5-87/7572/faster_subadditivity_test.sageqlt07qvc.py", line 559, in node_branching
+    self.unfathomed_node_list.put((node.left_child.delta_pi_lower_bound(**kwds),node.left_child))
+  File "/home/wangjw/.sage/temp/c5-87/7572/faster_subadditivity_test.sageqlt07qvc.py", line 320, in delta_pi_lower_bound
     lower_bound, estimators=self.delta_pi_affine_lower_bound(solver=solver)
-  File "/home/wangjw/.sage/temp/c4-79/21348/faster_subadditivity_test.sagezoqlgs3f.py", line 234, in delta_pi_affine_lower_bound
+  File "/home/wangjw/.sage/temp/c5-87/7572/faster_subadditivity_test.sageqlt07qvc.py", line 274, in delta_pi_affine_lower_bound
     p.solve()
   File "sage/numerical/mip.pyx", line 2260, in sage.numerical.mip.MixedIntegerLinearProgram.solve (build/cythonized/sage/numerical/mip.c:15418)
   File "sage/numerical/backends/cplex_backend.pyx", line 931, in sage.numerical.backends.cplex_backend.CPLEXBackend.solve (build/cythonized/sage/numerical/backends/cplex_backend.c:10138)

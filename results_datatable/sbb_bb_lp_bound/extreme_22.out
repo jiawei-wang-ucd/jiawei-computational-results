@@ -1,8 +1,8 @@
 ==========================================
-SLURM_JOB_ID = 1965916
-SLURM_NODELIST = c4-80
+SLURM_JOB_ID = 2006284
+SLURM_NODELIST = c5-64
 CUDA_VISIBLE_DEVICES = 
 ==========================================
-Sage hello from task 814
+Sage hello from task 914
 Input file:/home/wangjw/jiawei-computations/test_instances/extreme_functions/extreme_22.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_bb_lp_bound/extreme_22.csv

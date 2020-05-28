@@ -1,10 +1,10 @@
 ==========================================
-SLURM_JOB_ID = 1965789
-SLURM_NODELIST = c6-91
+SLURM_JOB_ID = 2006157
+SLURM_NODELIST = c6-81
 CUDA_VISIBLE_DEVICES = 
 ==========================================
-Sage hello from task 687
+Sage hello from task 787
 Input file:/home/wangjw/jiawei-computations/test_instances/minimal_functions/minimal_43_2s.sobj
 Output file:/home/wangjw/jiawei-computations/jiawei-computational-results/results_datatable/sbb_bb_constant_bound/minimal_43_2s.csv
-/home/wangjw/sage/sage-9.0/src/bin/sage-python: line 2: 30556 Killed                  sage -python "$@"
-slurmstepd: error: Detected 1 oom-kill event(s) in step 1965789.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+/home/wangjw/sage/sage-9.0/src/bin/sage-python: line 2: 25031 Killed                  sage -python "$@"
+slurmstepd: error: Detected 1 oom-kill event(s) in step 2006157.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
